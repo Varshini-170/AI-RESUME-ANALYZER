@@ -45,8 +45,8 @@ ai_resume_analyzer/
 ## How to run it
 
 ```bash
-git clone git clone https://github.com/Varshini-170/AI-RESUME-ANALYZER.git
-cd ai_resume_analyzer
+git clone https://github.com/Varshini-170/AI-RESUME-ANALYZER.git
+cd AI-RESUME-ANALYZER
 pip install -r requirements.txt
 streamlit run app.py
 ```
