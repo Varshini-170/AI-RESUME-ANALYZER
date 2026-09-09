@@ -23,6 +23,7 @@ Upload resume -> Extract text -> Clean text -> Find skills
 -> Show missing skills + roadmap -> Streamlit dashboard
 
 ## Folder Structure
+
 ai_resume_analyzer/
 |-- app.py # Streamlit dashboard
 |-- resume_parser.py # File upload + text extraction
