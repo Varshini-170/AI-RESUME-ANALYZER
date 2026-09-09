@@ -53,7 +53,7 @@ streamlit run app.py
 Then open the link it prints (usually `http://localhost:8501`) and upload a
 resume from `sample_resumes/` to try it out.
 
-## Notes
+## Note-
 
 - This is a guidance tool, not a hiring decision-maker. It doesn't look at
   gender, age, religion, nationality, or anything like that — only skills
