@@ -4,6 +4,9 @@ A Streamlit app that reads your resume (PDF or DOCX), compares it against a
 set of job roles, and shows you a match score, your top 3 recommended
 roles, missing skills, and a simple learning roadmap.
 
+**Live app:** https://ai-resume-analyzer-slrivthbphwx3h4jbvyhyx.streamlit.app/
+*(hosted on Streamlit Community Cloud — may take a few seconds to wake up if it's been idle)*
+
 ## What it does
 
 - Upload a PDF or DOCX resume
