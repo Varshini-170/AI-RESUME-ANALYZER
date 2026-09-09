@@ -18,24 +18,28 @@ roles, missing skills, and a simple learning roadmap.
 - Lets you download a text report of the results
 
 ## How it works
-Upload resume -> Extract text -> Clean text -> Find skills
--> Compare with job roles -> Score + rank roles
--> Show missing skills + roadmap -> Streamlit dashboard
+
+```
+Upload resume  ->  Extract text  ->  Clean text  ->  Find skills
+     ->  Compare with job roles  ->  Score + rank roles
+     ->  Show missing skills + roadmap  ->  Streamlit dashboard
+```
 
 ## Folder Structure
 
+```
 ai_resume_analyzer/
-|-- app.py # Streamlit dashboard
-|-- resume_parser.py # File upload + text extraction
-|-- text_cleaner.py # Text cleaning
-|-- skill_extractor.py # Skill detection
-|-- job_matcher.py # Matching + ranking
-|-- roadmap_generator.py # Skill gaps + roadmap
+|-- app.py                  # Streamlit dashboard
+|-- resume_parser.py        # File upload + text extraction
+|-- text_cleaner.py         # Text cleaning
+|-- skill_extractor.py      # Skill detection
+|-- job_matcher.py          # Matching + ranking
+|-- roadmap_generator.py    # Skill gaps + roadmap
 |-- requirements.txt
-|-- data/ # job_roles.csv, skill_dictionary.csv
-|-- sample_resumes/ # Sample resumes to test with
-|-- tests/ # test_cases.csv
-
+|-- data/                   # job_roles.csv, skill_dictionary.csv
+|-- sample_resumes/         # Sample resumes to test with
+|-- tests/                  # test_cases.csv
+```
 
 ## How to run it
 
@@ -49,7 +53,8 @@ streamlit run app.py
 Then open the link it prints (usually `http://localhost:8501`) and upload a
 resume from `sample_resumes/` to try it out.
 
-## Note-
+## Notes
+
 - This is a guidance tool, not a hiring decision-maker. It doesn't look at
   gender, age, religion, nationality, or anything like that — only skills
   and text similarity.
