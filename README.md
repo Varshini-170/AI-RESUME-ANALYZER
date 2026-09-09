@@ -41,7 +41,7 @@ streamlit run app.py
 
 Then open the link it prints (usually http://localhost:8501) and upload a resume from sample_resumes/ to try it out.
 
-Notes
+Note-
 This is a guidance tool, not a hiring decision-maker. It doesn't look at gender, age, religion, nationality, or anything like that — only skills and text similarity.
 Match scores are estimates. A missing keyword doesn't always mean a missing skill.
 Uploaded resumes are processed temporarily and deleted right after — nothing is stored permanently.
