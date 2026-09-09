@@ -5,6 +5,4 @@ __pycache__/
 venv/
 reports/*.txt
 reports/*.pdf
-sample_resumes/*.pdf
-sample_resumes/*.docx
 .DS_Store
